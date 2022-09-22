@@ -12,6 +12,8 @@
     @vite('resources/css/app.css')
 </head>
 <body>
+    @include('partials.navbar._navbar')
     @yield("content")
+    @include('partials.footer._footer')
 </body>
 </html>
